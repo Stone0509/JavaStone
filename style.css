@@ -13,7 +13,7 @@ body {
 /* Header */
 .header {
     background: linear-gradient(90deg, #007aff, #0056d2);
-    color: #fff;
+    color: #0056d2;
     text-align: center;
     padding: 3rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -40,7 +40,7 @@ h1 {
 p {
     font-size: 1.2rem;
     margin-top: 0.5rem;
-    color: #d6f0ff;
+    color: #0056d2;
 }
 
 /* Main Content */
@@ -88,6 +88,10 @@ ul li {
 }
 
 ul li strong {
+    color: #007aff;
+}
+
+.location {
     color: #007aff;
 }
 
@@ -192,6 +196,7 @@ ul li strong {
 
 .footer p {
     margin: 0;
+    color: #fff;
 }
 
 /* Responsive Design */
